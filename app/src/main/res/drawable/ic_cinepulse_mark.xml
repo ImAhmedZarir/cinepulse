@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="48dp"
+    android:height="36dp"
+    android:viewportWidth="64"
+    android:viewportHeight="48">
+
+    <!-- Ambient glowing pulse halo -->
+    <path
+        android:pathData="M16,24 C16,14 22,8 28,12 L31,24 L36,4 L42,42 L48,18 L51,26 L60,24"
+        android:strokeWidth="6"
+        android:strokeColor="#25FF2D55"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Film strip curl on the left -->
+    <path
+        android:pathData="M24,10 C16,10 10,16 10,24 C10,32 16,38 24,38 C29,38 32,35 34,30 L28,30 C26,32 25,33 23,33 C18,33 15,29 15,24 C15,19 18,15 23,15 C26,15 28,17 29,20 L34,18 C32,13 29,10 24,10 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="10"
+                android:startY="10"
+                android:endX="34"
+                android:endY="38"
+                android:type="linear">
+                <item android:color="#FF1A35" android:offset="0.0"/>
+                <item android:color="#FF5722" android:offset="1.0"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Film strip sprocket holes -->
+    <path
+        android:fillColor="#08080C"
+        android:pathData="M12,18 h2.5 v2.5 h-2.5 z M12,26 h2.5 v2.5 h-2.5 z M20,11.5 h2.5 v2 h-2.5 z M20,34.5 h2.5 v2 h-2.5 z" />
+
+    <!-- ECG Pulse Line connecting and shooting across -->
+    <path
+        android:pathData="M23,24 L29,24 L31,27 L36,4 L42,42 L48,18 L51,26 L60,24"
+        android:strokeWidth="3.6"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="23"
+                android:startY="24"
+                android:endX="60"
+                android:endY="24"
+                android:type="linear">
+                <item android:color="#FF2442" android:offset="0.0"/>
+                <item android:color="#FF5A1E" android:offset="0.5"/>
+                <item android:color="#FFA000" android:offset="1.0"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Crisp spark highlight on the main pulse peak -->
+    <path
+        android:pathData="M35,8 L36,4 L37.2,9"
+        android:strokeWidth="1.8"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Trailing pulse dot -->
+    <path
+        android:fillColor="#FFA000"
+        android:pathData="M59,24 A1.8,1.8 0 1,1 62.6,24 A1.8,1.8 0 1,1 59,24 Z" />
+
+</vector>
