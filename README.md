@@ -134,7 +134,7 @@ cinepulse/
 
 ## 🏷️ Keywords & Topics
 
-`android` • `kotlin` • `jetpack-compose` • `material-3` • `liquid-glass` • `glassmorphism` • `exoplayer` • `media3` • `streaming-app` • `video-player` • `picture-in-picture` • `pip` • `movie-app` • `anime-streaming` • `subtitles-parser` • `download-manager` • `low-ram` • `netflix-ui` • `apple-tv-ui` • `oled-dark-mode` • `android-modding`
+`open-sourced-streming-app` • `streaming-app` • `movie-streaming` • `video-streaming` • `media-streaming` • `tv-streaming` • `stream-player` • `video-player` • `exoplayer-streaming` • `media3-exoplayer` • `hls-streaming` • `online-streaming` • `streaming-client` • `movie-app` • `anime-streaming` • `cinema-streaming` • `android-streaming-app` • `live-streaming` • `video-streamer`
 
 ---
 
